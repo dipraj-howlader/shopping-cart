@@ -1,14 +1,6 @@
 
 //  2nd part
 
-const CaseMinus = document.getElementById('CaseMinus');
-CaseMinus.addEventListener('click', function(){
-    handleProductChange(false);
-})
-const casePlus = document.getElementById('CasePlus');
-casePlus.addEventListener('click', function(){
-    handleProductChange(true);
-})
 
 function handleProductChange(isIncrease){
     const caseInput = document.getElementById('changeOfValue');
@@ -27,14 +19,6 @@ function handleProductChange(isIncrease){
 
 // 1st part
 
-const minusBtn = document.getElementById('minusBtn');
-minusBtn.addEventListener('click', function(){
-    firstProductChange(false);
-})
-const plusBtn = document.getElementById('plusBtn');
-plusBtn.addEventListener('click', function(){
-    firstProductChange(true);
-})
 
 function firstProductChange(isIncrease){
     const caseInput = document.getElementById('minusValue');
